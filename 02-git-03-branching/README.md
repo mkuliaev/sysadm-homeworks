@@ -310,7 +310,7 @@ Rebase
 echo "\$@ Parameter #$count = $param"
 ```
 
-![1](img/reb_git.png)
+![1](img/reb_git1.png)
 
 
 сообщим гиту, что конфликт решен `git add rebase.sh` и продолжим ребейз `git rebase --continue`.
