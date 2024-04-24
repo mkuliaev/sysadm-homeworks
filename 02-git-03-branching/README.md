@@ -301,7 +301,7 @@ Rebase
 Перед мержем ветки git-rebase выполним её rebase на main.
 Переключаемся на ветку git-rebase и выполняем git rebase main
 
-![Первый мерж](img/git _rebase _main.png)
+![Первый мерж](img/git_rebase_main.png)
 
 
 Если посмотреть содержимое файла rebase.sh, то увидим метки, оставленные Git для решения конфликта:
@@ -310,13 +310,13 @@ Rebase
 echo "\$@ Parameter #$count = $param"
 ```
 
-![Первый мерж](img/02.png)
+![Первый мерж](img/reb_git.png)
 
 
 сообщим гиту, что конфликт решен `git add rebase.sh` и продолжим ребейз `git rebase --continue`.
 
 
-![Первый мерж](img/02.png)
+![Первый мерж](img/conf_git_1.png)
 
 
 
@@ -324,7 +324,7 @@ echo "\$@ Parameter #$count = $param"
 Разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
 
-![Первый мерж](img/02.png)
+![Первый мерж](img/conf_git_2.png)
 
 
 
