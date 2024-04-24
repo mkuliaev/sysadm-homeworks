@@ -318,7 +318,7 @@ echo "\$@ Parameter #$count = $param"
 Разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
 
-![1](img/conf_git_2.png)
+![1](img/confl_git_2.png)
 
 
 
