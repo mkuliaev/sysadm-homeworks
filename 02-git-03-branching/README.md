@@ -338,5 +338,5 @@ echo "\$@ Parameter #$count = $param"
 
 
 
-ссылку на .md-файл с репозитория
+Ссылку на .md-файл с репозитория
 https://github.com/mkuliaev/git-03-branching.git
