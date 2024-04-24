@@ -340,4 +340,4 @@ echo "\$@ Parameter #$count = $param"
 
 Ссылку на .md-файл с репозитория
 
-https://github.com/mkuliaev/02-git-03-branching/network
+https://github.com/mkuliaev/03-branching/network
