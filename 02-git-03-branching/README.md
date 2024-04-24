@@ -298,7 +298,7 @@ Merge
 
 Rebase
 
-Перед мержем ветки `git-rebase `выполним её `rebase` на `main`.
+Перед мержем ветки `git-rebase ` выполняем её `rebase` на `main`.
 Переключаемся на ветку `git-rebase` и выполняем `git rebase main`
 
 ![1](img/git_rebase_main.png)
@@ -313,13 +313,7 @@ echo "\$@ Parameter #$count = $param"
 ![1](img/reb_git1.png)
 
 
-сообщим гиту, что конфликт решен `git add rebase.sh` и продолжим ребейз `git rebase --continue`.
-
-
-![1](img/conf_git_1.png)
-
-
-
+Сообщим гиту, что конфликт решен `git add rebase.sh` и продолжим ребейз `git rebase --continue`.
 И опять получучаем конфликт в файле `rebase.sh` при попытке применения второго коммита. 
 Разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
