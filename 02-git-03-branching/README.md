@@ -244,27 +244,27 @@ ________________________________________________________________________________
 
 Создайте в своем репозитории каталог `branching` и в нем два файла `merge.sh` и `rebase.sh` 
 
-![Первый мерж](img/1-marge_rebase.png)
+![1](img/1-marge_rebase.png)
 
 Создаём коммит с описанием `prepare for merge and rebase` и отправляес его в ветку main.
 
-![Первый мерж](img/1-commit.png)
+![1](img/1-commit.png)
 
 
 Заменяем содержимое файла `merge.sh`, создаём коммит `merge: @ instead *` отправьте изменения в репозиторий.
 
-![Первый мерж](img/merge:@instead.png)
+![1](img/merge:@instead.png)
 
 
 Возврвщаемся в ветку main. изменяем содержимое файла `rebase.sh`  и отправляем изменённую ветку `main` в репозиторий.
 
-![Первый мерж](img/in_main.png)
+![1](img/in_main.png)
 
 
 Найдём хеш коммита 'prepare for merge and rebase' и выполним 'git checkout' на него
 
 
-![Первый мерж](img/hasah.png)
+![1](img/hasah.png)
 
 
 
@@ -272,7 +272,7 @@ ________________________________________________________________________________
 Отправим эти изменения в ветку git-rebase с комментарием git-rebase 1.
 
 
-![Первый мерж](img/git-rebase1.png)
+![1](img/git-rebase1.png)
 
 
 
@@ -280,19 +280,19 @@ ________________________________________________________________________________
 сделаем ещё один коммит git-rebase 2 с пушем, заменив echo "Parameter: $param" на echo "Next parameter: $param".
 
 
-![Первый мерж](img/git-rebase2.png)
+![1](img/git-rebase2.png)
 
 
 
 Промежуточный итог
 
-![Первый мерж](img/network_graph_1.jpg)
+![1](img/network_graph_1.jpg)
 
 
 Merge
 
 
-![Первый мерж](img/network_graph_2.jpg)
+![1](img/network_graph_2.jpg)
 
 
 
@@ -301,7 +301,7 @@ Rebase
 Перед мержем ветки git-rebase выполним её rebase на main.
 Переключаемся на ветку git-rebase и выполняем git rebase main
 
-![Первый мерж](img/git_rebase_main.png)
+![1](img/git_rebase_main.png)
 
 
 Если посмотреть содержимое файла rebase.sh, то увидим метки, оставленные Git для решения конфликта:
@@ -310,13 +310,13 @@ Rebase
 echo "\$@ Parameter #$count = $param"
 ```
 
-![Первый мерж](img/reb_git.png)
+![1](img/reb_git.png)
 
 
 сообщим гиту, что конфликт решен `git add rebase.sh` и продолжим ребейз `git rebase --continue`.
 
 
-![Первый мерж](img/conf_git_1.png)
+![1](img/conf_git_1.png)
 
 
 
@@ -324,7 +324,7 @@ echo "\$@ Parameter #$count = $param"
 Разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
 
-![Первый мерж](img/conf_git_2.png)
+![1](img/conf_git_2.png)
 
 
 
@@ -341,7 +341,7 @@ echo "\$@ Parameter #$count = $param"
 смержить ветку `git-rebase` в main 
 
 
-![Первый мерж](img/Force.png)
+![1](img/Force.png)
 
 
 
